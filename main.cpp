@@ -1,7 +1,7 @@
 ﻿#include "injection.h"
 
 const char szProc[] = "explorer.exe";
-const char szDllFile[] = "L4D2.dll";
+const char szDllFile[] = "example.dll";
 
 int main() {
 	PROCESSENTRY32 PE32{ 0 };
